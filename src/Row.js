@@ -8,6 +8,6 @@ function Row  ({ row })  {
             {row.map((cell) => <Cell value={cell} />)}
         </tr>
     );
-};
+}
 
 export default Row;
